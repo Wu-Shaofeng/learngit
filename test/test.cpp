@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 int main(){
-	int a,b,c;
-	cin>>a>>b>>c;
-	cout<<a+b+c<<endl;
+	int a,b,c,d;
+	cin>>a>>b>>c>>d;
+	cout<<a+b+c+d<<endl;
 }

@@ -4,7 +4,11 @@ void quickSort(int a[], int m, int n);
 int partion(int a[], int m, int n);
 int main()
 {
-	int a[] = { 6,1,2,7,9,3,4,5,10,8 };
+	int a[10];
+	for (int i = 0; i < 10; i++)
+	{
+		cin >> a[i];
+	}
 	int m = 0;
 	int n = (sizeof(a) / 4) - 1;
 	quickSort(a, m, n);
